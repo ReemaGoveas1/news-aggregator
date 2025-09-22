@@ -1,3 +1,9 @@
+News Aggregator app:
+
+Features -  1. Data from New York Times and Guardian.
+2. Filtering with different categories as filters and with input data through search keyword.
+3. Setting and editing preference for the filtering purpose.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -13,6 +19,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+
+Also run npm `run start-api` for tracking the db as the user creds are managed through json server.
 
 ### `npm test`
 
