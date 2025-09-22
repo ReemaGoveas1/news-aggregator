@@ -1,6 +1,7 @@
-News Aggregator app:
+# News Aggregator app:
 
-Features -  1. Data from New York Times and Guardian.
+### Features : 
+1. Data from New York Times and Guardian.
 2. Filtering with different categories as filters and with input data through search keyword.
 3. Setting and editing preference for the filtering purpose.
 
