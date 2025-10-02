@@ -1,6 +1,6 @@
 import { Filters, UnifiedArticle } from '../types';
 
-const GUARDIAN_API_KEY = "4eb38e7d-aa50-4079-abbb-800cbe7cab23";
+const GUARDIAN_API_KEY = "add_guardian_key_here";
 
 export default async function fetchGuardianArticles(filters: Filters): Promise<UnifiedArticle[]> {
   let url = `https://content.guardianapis.com/search?api-key=${GUARDIAN_API_KEY}&show-fields=trailText,thumbnail&page-size=20&order-by=newest`;
