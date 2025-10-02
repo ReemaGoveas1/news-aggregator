@@ -1,6 +1,6 @@
 import { Filters, UnifiedArticle } from '../types';
 
-const NYTIMES_API_KEY = 'd4UA9YUuQ0j6naCjJZBdDDp2QLtjwa54';
+const NYTIMES_API_KEY = 'add_nyt_key_here';
 const NYTIMES_API_URL = `https://api.nytimes.com/svc/topstories/v2/home.json?api-key=${NYTIMES_API_KEY}`;
 
 let cachedArticles: UnifiedArticle[] | null = null;
